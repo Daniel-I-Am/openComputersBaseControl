@@ -2,7 +2,7 @@
 Control of entire bases, including power ball and reactor from draconic evolution.
 
 # Credit and guide
---[[------------------
+```
   //  Authors:
   //  ========
   //  Program: Base Control
@@ -31,5 +31,5 @@ Control of entire bases, including power ball and reactor from draconic evolutio
   //  Updates:
   //  ========
   //  If you want to update the program, you can do so by running the program with the -u option. WARNING: This will reset your configuration, this is done, in case config flags are added/removed/changed. DO NOT COPY IN OLD CONFIG FILES.
-  //  
---]]------------------
+  //
+```
