@@ -362,6 +362,7 @@ function reactor(e)
   gpu.setBackground(config["Default_bg"])
   dan.addRect(width-45,21,width-1,22,config["Default_bg"])
   gpu.set(width-45,21,"IN flow/field: " .. dan.comma_value(tostring(math.floor(fluxGateIn.getSignalLowFlow()))) .. "/" .. dan.comma_value(tostring(math.floor(reactorStats.fieldDrainRate))) .. " RF/t")
+  --TODO:fix field drain rate
   gpu.set(width-45,22,"OUT flow/generated: " .. dan.comma_value(tostring(math.floor(fluxGateOut.getSignalLowFlow()))) .. "/" .. dan.comma_value(tostring(math.floor(reactorStats.generationRate))) .. " RF/t")
   
   local battery = {stored=reactorStats.energySaturation, max=reactorStats.maxEnergySaturation, perc=reactorStats.energySaturation/reactorStats.maxEnergySaturation}
