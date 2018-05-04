@@ -3,6 +3,8 @@ Control of entire bases, including power ball and reactor from draconic evolutio
 
 # Credit and guide
 ```
+
+--[[------------------
   //  Authors:
   //  ========
   //  Program: Base Control
@@ -25,11 +27,14 @@ Control of entire bases, including power ball and reactor from draconic evolutio
   //  
   //  Installation:
   //  =============
-  //  The program can be installed with the following command: `pastebin get v3hjrEz4 /home/baseControl.lua -f;/home/baseControl.lua`
+  //  The program can be installed with the following command:
+  //  `wget https://raw.githubusercontent.com/Daniel-I-Am/openComputersBaseControl/master/home/baseControl.lua /home/baseControl.lua;baseControl`
   //  This does require an internet connection.
+  //  You are then able to start the program with `baseControl` (if located in the home directory). To switch to the home directory, you can just type `cd /home`.
   //  
   //  Updates:
   //  ========
   //  If you want to update the program, you can do so by running the program with the -u option. WARNING: This will reset your configuration, this is done, in case config flags are added/removed/changed. DO NOT COPY IN OLD CONFIG FILES.
-  //
+  //  
+--]]------------------
 ```
