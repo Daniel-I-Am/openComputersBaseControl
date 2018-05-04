@@ -21,8 +21,10 @@
   //  
   //  Installation:
   //  =============
-  //  The program can be installed with the following command: `pastebin get v3hjrEz4 /home/baseControl.lua -f;/home/baseControl.lua`
+  //  The program can be installed with the following command:
+  //  `wget https://raw.githubusercontent.com/Daniel-I-Am/openComputersBaseControl/master/home/baseControl.lua /home/baseControl.lua;baseControl`
   //  This does require an internet connection.
+  //  You are then able to start the program with `baseControl` (if located in the home directory). To switch to the home directory, you can just type `cd /home`.
   //  
   //  Updates:
   //  ========
