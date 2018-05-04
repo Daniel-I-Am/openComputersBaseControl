@@ -62,8 +62,8 @@ do --make sure dependencies exist
     end
     os.execute("cp /autorun.lua /autorun.lua.baseControl.old") --backup current autorun
     os.execute("echo \"os.execute(\\\"/home/baseControl.lua\\\")\">/autorun.lua") --write startup to new autorun
-    os.execute("pastebin get FZhAePfc /lib/ButtonAPI.lua") --download dependencies
-    os.execute("pastebin get dzhrswrZ /lib/danAPI.lua")
+    os.execute("wget https://raw.githubusercontent.com/Daniel-I-Am/openComputersBaseControl/master/lib/ButtonAPI.lua /lib/ButtonAPI.lua -f") --download dependencies
+    os.execute("wget https://raw.githubusercontent.com/Daniel-I-Am/openComputersBaseControl/master/lib/danAPI.lua /lib/danAPI.lua -f")
     -- ****TODO: check if there's no internet then reset the autorun, since it will fail over and over****
     os.execute("reboot") --reboot (after reboot program will be started and first part of this do-end loop will be triggered
   end
@@ -77,7 +77,7 @@ end
 _, options = shell.parse(...)
 do
   if options.u then --update
-    os.execute("pastebin get v3hjrEz4 /home/baseControl.lua -f")
+    os.execute("wget https://raw.githubusercontent.com/Daniel-I-Am/openComputersBaseControl/master/home/baseControl.lua /home/baseControl.lua;baseControl -f")
     os.execute("/home/baseControl.lua -r")
     os.exit()
   end
